@@ -1,19 +1,4 @@
-<h1 align="center">Scribble.rs</h1>
-
-<p align="center">
-  <a href="https://github.com/scribble-rs/scribble.rs/actions">
-    <img src="https://github.com/scribble-rs/scribble.rs/workflows/Run%20scribble-rs%20tests/badge.svg">
-  </a>
-  <a href="https://codecov.io/gh/scribble-rs/scribble.rs">
-    <img src="https://codecov.io/gh/scribble-rs/scribble.rs/branch/master/graph/badge.svg">
-  </a>
-  <a href="https://liberapay.com/biosmarcel/donate">
-    <img src="https://img.shields.io/liberapay/receives/biosmarcel.svg?logo=liberapay">
-  </a>
-  <a href="https://heroku.com/deploy?template=https://github.com/scribble-rs/scribble.rs/tree/master">
-    <img src="https://www.herokucdn.com/deploy/button.png">
-  </a>
-</p>
+<h1 align="center">Scribble.rs - FinFiles edition</h1>
 
 Scribble.rs is an alternative to the web-based drawing game skribbl.io. My main
 problems with skribbl.io were the ads and the fact that a disconnect would
@@ -27,24 +12,6 @@ The site will not display any ads or share any data with third parties.
 We have a new blog over at https://scribble-rs.github.io. Over there, you can read about some highlights and discuss them in the comment section.
 The comment section is powered by utteranc.es, which means it'll use the blogs repository for comments and you can simply use your GitHub account for commenting.
 
-## Play now
-
-Feel free to play on this instance
-
-* https://scribblers-official.herokuapp.com/
-  > Might not respond right-away, just wait some seconds / minutes, as it
-  > shuts down automatically when unused.
-
-### Hosting your own instance for free
-
-By using Heroku, you can deploy a temporary container that runs scribble.rs.
-The container will not have any cost and automatically suspend as soon as it
-stops receiving traffic for a while.
-
-Simply create an account at https://id.heroku.com/login and then click this link:
-
-https://heroku.com/deploy?template=https://github.com/scribble-rs/scribble.rs/tree/master
-
 ## Building / Running
 
 First you'll need to install the Go compiler by followng the instructions at https://go.dev/doc/install.
@@ -53,7 +20,7 @@ If you are using a package manager for this, that's fine too.
 Next you'll have to download the code via:
 
 ```shell
-git clone https://github.com/scribble-rs/scribble.rs.git
+git clone https://github.com/finfiles-dev/scribble.rs.git
 cd scribble.rs
 ```
 
